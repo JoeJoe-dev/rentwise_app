@@ -120,19 +120,14 @@ function LandlordDashboard() {
         </div>
         <div className="flex flex-col gap-3 px-4">
           {[
-            { name: "Oakwood Apartments", addr: "124 Oak St, North Bergen", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBoUlsh5fp6ZR-oYRMOl7vW7tMRl_0U6xIuzrPP5OKpRzBtRl5-CmpapXSQi78R1qlNDq9Y_4Rbh2AI3wyEv1GQYluO3gBJ9cLZvHjJzJOIRLOpeCUnzcPBwjl6TKhglEdg2ZnqBr-pbptnRyH5p96su6v2q47mRKEHPhdltHknl3-_q_WhJ_fGb4s6euJagaLQCqMMCEXbhkNxlvlyOQmEGAMUfnGOllbvwb1KM5m0JJIs8U-2kOHEMVU4ghmk3RQL5Jqr0KwgHXoz", tags: [{ label: "Rent Paid", color: "text-[#0bda57] bg-[#0bda57]/20" }, { label: "8/8 Units", color: "text-primary bg-primary/20" }] },
-            { name: "Skyline View Lofts", addr: "45 Waterfront Ave, Downtown", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAtQj7FEa4S3knyE_dNPcoMeHGkesiRr0Cntg2mULryQHAwTeIXoG5buFFsEKwv1vlU2JsR_pw2l_zxAaD_H0KWn2L5yNmnMnNXRBg_uj-gxpeaUroNNrERYtmUKP6F4elKWA8BNMOXUBvES3-ZJMOHh6N1KbcrSSzcloS9T35lctFAeiKLYHbMMAQvZPGbQ-bvoQKKokw_rHI-L3viKfAc0mwMkVzMeD-8uKKx5zFzz5E9cSzu9QCGL_-DwhfLzIJTfrylLu-ykVxQ", tags: [{ label: "3 Tasks", color: "text-red-500 bg-red-500/20" }, { label: "1 Vacancy", color: "text-amber-500 bg-amber-500/20" }] },
+            { name: "Oakwood Apartments", addr: "124 Oak St, North Bergen", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBoUlsh5fp6ZR-oYRMOl7vW7tMRl_0U6xIuzrPP5OKpRzBtRl5-CmpapXSQi78R1qlNDq9Y_4Rbh2AI3wyEv1GQYluO3gBJ9cLZvHjJzJOIRLOpeCUnzcPBwjl6TKhglEdg2ZnqBr-pbptnRyH5p96su6v2q47mRKEHPhdltHknl3-_q_WhJ_fGb4s6euJagaLQCqMMCEXbhkNxlvlyOQmEGAMUfnGOllbvwb1KM5m0JJIs8U-2kOHEMVU4ghmk3RQL5Jqr0KwgHXoz" },
+            { name: "Skyline View Lofts", addr: "45 Waterfront Ave, Downtown", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAtQj7FEa4S3knyE_dNPcoMeHGkesiRr0Cntg2mULryQHAwTeIXoG5buFFsEKwv1vlU2JsR_pw2l_zxAaD_H0KWn2L5yNmnMnNXRBg_uj-gxpeaUroNNrERYtmUKP6F4elKWA8BNMOXUBvES3-ZJMOHh6N1KbcrSSzcloS9T35lctFAeiKLYHbMMAQvZPGbQ-bvoQKKokw_rHI-L3viKfAc0mwMkVzMeD-8uKKx5zFzz5E9cSzu9QCGL_-DwhfLzIJTfrylLu-ykVxQ" },
           ].map((p, i) => (
             <div key={i} className="flex items-center gap-4 rounded-xl bg-[#192b33] p-3 shadow-sm border border-slate-800">
               <div className="size-16 bg-center bg-no-repeat bg-cover rounded-lg shrink-0" style={{ backgroundImage: `url("${p.img}")` }} />
               <div className="flex-1 min-w-0">
                 <p className="text-white text-sm font-bold truncate">{p.name}</p>
                 <p className="text-slate-400 text-xs truncate">{p.addr}</p>
-                <div className="flex gap-2 mt-1.5">
-                  {p.tags.map((t, j) => (
-                    <span key={j} className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${t.color}`}>{t.label}</span>
-                  ))}
-                </div>
               </div>
               <span className="material-symbols-outlined text-slate-400">chevron_right</span>
             </div>

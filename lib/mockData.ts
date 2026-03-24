@@ -12,7 +12,7 @@ export const mockProperties: Property[] = [
     verified: true,
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAgs-K6Vkf6yIKthCW5kO-ilpiI56s6Az-SvIrtxj3EvDkD7Qc0yxJ1NNHFfRgcTHW4SHf5zKV_ezBA8VvWbVSrqVOFyEOG6RTn9SVa-9NN9rM0E6PFvLoN5k5fNWcNSZlPHZGCEmfWarQf-uvCGJRvwLbdl9vBZV0zX1-JHFl2eZq08wnlWyLglW_Azbkw8ahlaCGgqANUbkkCK8ikch_oYdRjZMYPS9-BeCWdPCFF96jrFMkKmUO4k5w_P74hbUjul8uXcVSNr-pY",
-    tags: ["WiFi", "Parking", "Security"],
+    // tags: ["WiFi", "Parking", "Security"],
   },
   {
     id: "prop-2",
@@ -25,7 +25,6 @@ export const mockProperties: Property[] = [
     verified: true,
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuD3ls3tBde1htQYTewXMFKLkY6emQM25OUjpTzOQ1hQvsVx9-3INpPQnkLfBe-gGi41NEPlhM2XoJhiUbIGpbHG4KrL8bRYbl8_4w3S3lBG0CaaPvXeZeGE3zIkJIw0g1Qk5w_zNNTXo0Zt2NfU29J_XPSHYLxVokddYtOdRXNDUl-SqCsTXK6palTQe1Cf7P-I7eyHFZjcZKAZCVwueyR-ctcDG3UcTNv4hQanohfZkQyOAoMqc7CjmqKhpgRcxBEW8h-lK9Yjnlao",
-    tags: ["Furnished", "Pool"],
   },
   {
     id: "prop-3",
@@ -38,7 +37,6 @@ export const mockProperties: Property[] = [
     verified: false,
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAFEcQ6C_b0G2oz1AVtr-vmkGpbWsHmZQC2V4gB06b6v0Z8tXpIDhvX8IxkJv68JGByjFuZJSweTwJjVPkormKnxeFTaG05CG6lb7wEx4aXXct98Bmksfu4oxWSYp-R77rXsA0Kgd_-mol3C0sVQh-L5S4asDWIfDJ9THhfFAEB2I3qfpkyI7hxPcjOcSZnN_ECrO-hyiF-XjkDy1wk6qtD8d-vjpCbCIpHvZWtyDPE1k7n6fqP32K4SisjYlFUU17YjMveStZMnrvc",
-    tags: ["Gym", "Concierge"],
   },
 ];
 
