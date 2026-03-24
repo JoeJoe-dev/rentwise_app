@@ -177,6 +177,13 @@ export function SideDrawer({ open, onClose }: SideDrawerProps) {
             <span className="material-symbols-outlined text-xl">balance</span>
             <span className="text-sm font-medium">Rights &amp; Guide</span>
           </button>
+          <button
+            onClick={() => { onClose(); router.push("/emergency"); }}
+            className="flex w-full items-center gap-3 px-3 py-3 rounded-xl text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/10 transition-colors"
+          >
+            <span className="material-symbols-outlined text-xl">emergency_home</span>
+            <span className="text-sm font-medium">Emergency</span>
+          </button>
         </div>
 
         {/* Logout */}

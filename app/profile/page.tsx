@@ -144,6 +144,15 @@ function ProfilePage() {
         </div>
       </div>
 
+      {/* Emergency */}
+      <div className="mt-6 px-4">
+        <button onClick={() => router.push("/emergency")}
+          className="flex w-full items-center justify-center gap-3 h-13 py-3.5 rounded-2xl bg-red-600 dark:bg-red-600/20 border border-red-500 dark:border-red-600 text-white dark:text-red-400 hover:bg-red-700 dark:hover:bg-red-600/30 transition-all text-sm font-semibold">
+          <span className="material-symbols-outlined text-[20px] font-bold">emergency_home</span>
+          <span>Emergency</span>
+        </button>
+      </div>
+
       {/* Logout */}
       <div className="mt-12 mb-10 px-6 flex flex-col items-center gap-6">
         <button onClick={handleLogout}

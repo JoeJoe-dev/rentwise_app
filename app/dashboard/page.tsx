@@ -144,15 +144,6 @@ function TenantDashboard() {
 
       <div className="h-24" />
 
-      {/* Emergency FAB */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <button onClick={() => router.push("/emergency")}
-          className="flex items-center gap-2 rounded-full bg-red-600 px-6 py-4 text-white shadow-2xl shadow-red-600/30 transition-transform active:scale-90 active:bg-red-700">
-          <span className="material-symbols-outlined font-bold">emergency_home</span>
-          <span className="text-sm font-bold uppercase tracking-wider">Emergency</span>
-        </button>
-      </div>
-
       {/* Bottom Nav */}
       <div className="fixed bottom-0 w-full max-w-md bg-white dark:bg-[#111c22]/90 backdrop-blur-md border-t border-gray-200 dark:border-white/10 px-8 py-3 flex justify-between items-center">
         <div className="flex flex-col items-center gap-1 text-primary">
